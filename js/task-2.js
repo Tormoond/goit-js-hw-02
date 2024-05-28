@@ -3,7 +3,7 @@ console.log('-------TASK #-2 ------');
 function formatMessage(message, maxLength) {
   if (message.length <= maxLength) {
     return message;
-  } else `${message.slice(0, maxLength)}`;
+  } else return `${message.slice(0, maxLength)}...`;
 }
 
 console.log(formatMessage('Curabitur ligula sapien', 16)); // "Curabitur ligula..."
